@@ -19,7 +19,7 @@ p {
 }
 
 body {
-  background: url(../asset/img/bg.jpg);
+  background-image: url(../asset/img/bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 20%;
