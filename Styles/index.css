@@ -10,7 +10,9 @@
   font-family: Inter;
   src: url(/asset/font/Inter-VariableFont_slnt,wght.ttf);
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Inter", sans-serif;
 }
 
@@ -19,7 +21,7 @@ p {
 }
 
 body {
-  background: url(/asset/img/bg.jpg);
+  background-image: url(../asset/img/bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 20%;
@@ -39,20 +41,20 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 nav ul li {
   margin: 20px;
@@ -105,8 +107,8 @@ section .date {
   display: grid;
   grid-template-columns: 40% 20% 40%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   justify-items: center;
   padding-top: 5%;
 }
@@ -175,7 +177,7 @@ section p {
 }
 
 .left {
-  border-right: 1Px solid rgba(0, 0, 0, 0.171);
+  border-right: 1px solid rgba(0, 0, 0, 0.171);
 }
 
 footer {
@@ -202,14 +204,14 @@ footer .form-grid {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 100%;
   width: 80%;
   margin: 10%;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 footer textarea {
   resize: none;
@@ -249,11 +251,11 @@ footer input.button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .socialnetwork a {
   color: rgb(255, 255, 255);
@@ -288,8 +290,8 @@ button {
   grid-template-columns: 30% 70%;
   color: grey;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   text-align: start;
   border-bottom: 1px solid rgba(128, 128, 128, 0.265);
   padding-left: 50px;
@@ -311,8 +313,8 @@ button {
   justify-items: center;
   margin-right: 0;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border-bottom: none;
 }
 .identifiants .socialnetwork a {
@@ -346,11 +348,11 @@ button {
   section .date {
     grid-template-columns: 30% 40% 30%;
     -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
   }
   section .date .date-bottom {
     width: 100%;
     margin-top: 40%;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
