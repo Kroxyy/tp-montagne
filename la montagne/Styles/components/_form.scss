@@ -1,0 +1,48 @@
+
+.identifiants{
+    margin: 0;
+
+
+    div{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        color: grey;
+        align-items: baseline;
+        text-align: start;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.265);
+        padding-left: 50px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+
+        h3{
+            margin-right: 20%;
+            text-transform: uppercase;
+        }
+        p{
+            margin-bottom: 0;
+        } 
+    }
+ :nth-child(4){
+     border-bottom: none;
+  }
+    .socialnetwork{
+        grid-template-columns: repeat(4,20%);
+        justify-items: center;
+        margin-right: 0;
+        justify-content: space-between;
+        border-bottom: none;
+
+
+        a{
+        color: black;
+        border: 1px solid gray;
+        border-radius: 100px;
+        padding: 20%;
+        height: 20px;
+        font-size: 20px;
+        
+        }
+    }
+
+       
+}
