@@ -346,6 +346,9 @@ button:hover {
 }
 
 @media screen and (max-width: 750px) {
+  body {
+    background-position: -600px;
+  }
   header h1 {
     margin: 40% 0 0;
     letter-spacing: 8px;
