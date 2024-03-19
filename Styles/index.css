@@ -46,20 +46,25 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 0;
+  margin: 0;
+  width: 50%;
 }
 nav ul li {
-  margin: 20px;
   text-align: center;
   text-transform: uppercase;
   color: white;
   font-weight: 800;
+  padding: 5%;
+}
+nav ul li:hover {
+  background: whitesmoke;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  color: black;
 }
 
 header {
@@ -91,6 +96,12 @@ header a {
   display: block;
   text-align: center;
 }
+header a:hover {
+  background: whitesmoke;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  color: black;
+}
 
 section {
   margin-right: 10%;
@@ -118,7 +129,7 @@ section p {
 }
 
 .textsection1 {
-  margin: 1% 20% 0;
+  margin: 1% 25% 0;
 }
 .textsection1 h1 {
   font-size: 70px;
@@ -247,16 +258,22 @@ footer input.button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .socialnetwork a {
   color: rgb(255, 255, 255);
-  margin: 30px;
+  padding: 63%;
+}
+.socialnetwork a:hover {
+  background: whitesmoke;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  color: black;
 }
 .socialnetwork i {
   width: 100%;
@@ -277,6 +294,12 @@ button {
   width: 170px;
   background-color: white;
   border: 2px solid black;
+}
+button:hover {
+  background: rgba(171, 171, 171, 0.511);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  color: rgb(0, 0, 0);
 }
 
 .identifiants div {
@@ -340,6 +363,9 @@ button {
   }
   nav .socialnetwork {
     display: none;
+  }
+  nav ul {
+    width: 100%;
   }
   section .date {
     grid-template-columns: 30% 40% 30%;

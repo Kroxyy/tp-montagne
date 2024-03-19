@@ -2,19 +2,27 @@ nav {
     background: rgba(0, 0, 0, 0.10);
     @include margin;
     margin-top: 10%;
+
     ul{
         display: flex;
-        justify-content: space-around; 
-        padding-inline-start: 0;
-        align-items:center;
-
+        align-items: center;
+        padding: 0 0;
+        margin: 0 ;
+        width: 50%;
         li{
-            margin: 20px;
             text-align: center;
             text-transform: uppercase;
             color: white;
-            font-weight: 800;
-        }    
+            font-weight: 800;           
+            padding: 5%;
+
+            &:hover{
+                background: whitesmoke;
+                transition: background-color 0.3s;
+                color: black;
+            }
+        }
+        
     }
     display: flex;
     justify-content: space-between;

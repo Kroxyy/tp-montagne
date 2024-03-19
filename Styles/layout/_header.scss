@@ -25,6 +25,11 @@ header{
         width: 20px;
         display: block;
         text-align: center;
+        &:hover{
+            background: whitesmoke;
+            transition: background-color 0.3s;
+            color: black;
+        }
     }
 }
 

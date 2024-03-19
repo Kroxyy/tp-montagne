@@ -1,14 +1,22 @@
 .socialnetwork{
     
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
      a{
         color: $white;
-        margin: 30px;
+        
+        padding: 63%;
+
+        &:hover{
+            background: whitesmoke;
+            transition: background-color 0.3s;
+            color: black;
+        }
     }
     i{
         width: 100%;
     }
+    
 }
