@@ -1,0 +1,14 @@
+.socialnetwork{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     a{
+        color: $white;
+        margin: 30px;
+    }
+    i{
+        width: 100%;
+    }
+}
