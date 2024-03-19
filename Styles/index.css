@@ -279,9 +279,6 @@ button {
   border: 2px solid black;
 }
 
-.identifiants {
-  margin: auto 90px auto auto;
-}
 .identifiants div {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -312,6 +309,9 @@ button {
   margin-right: 0;
   border-bottom: none;
   padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .identifiants .socialnetwork a {
   color: black;
@@ -322,7 +322,7 @@ button {
   font-size: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   header h1 {
     margin: 40% 0 0;
     letter-spacing: 8px;
@@ -350,5 +350,54 @@ button {
   section .date .date-bottom {
     width: 100%;
     margin-top: 40%;
+  }
+  .textsection1 h1 {
+    font-size: 40px;
+  }
+  .textsection1 p {
+    margin: auto 70px 40px 70px;
+  }
+  .date-bottom {
+    padding-top: 5%;
+  }
+  .bottom {
+    display: block;
+  }
+  .bottom p {
+    margin: 10% 20% auto 20%;
+  }
+  footer {
+    margin-top: 5%;
+  }
+  footer .contact {
+    display: block;
+  }
+  footer .form-grid {
+    padding-top: 20%;
+  }
+  footer .form-grid .button {
+    height: 60px;
+    width: 200px;
+  }
+  footer input {
+    height: 60px;
+  }
+  .identifiants {
+    margin: 0;
+  }
+  .identifiants div {
+    grid-template-columns: 25% 75%;
+  }
+  .identifiants h3 {
+    font-size: 18px;
+  }
+  .identifiants p {
+    margin-right: 20%;
+  }
+  .identifiants .socialnetwork {
+    margin-right: 20%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }/*# sourceMappingURL=index.css.map */

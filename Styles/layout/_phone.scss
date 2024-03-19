@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     header{
         h1{
             margin: 40% 0 0;
@@ -31,10 +31,58 @@ section .date{
             margin-top: 40%;
         }
     }
+.textsection1 {
+    h1{
+        font-size: 40px;
+        }
+    p{
+        margin: auto 70px 40px 70px;
+    }
+    }
 
+.date-bottom{
+    padding-top: 5%
+}
+.bottom{
+    display: block;
+    p{
+        margin: 10% 20% auto 20%;
+    }
+}
 
+footer{
+    margin-top: 5%;
+    .contact{
+        display: block;
+    }
+    .form-grid{
+        padding-top: 20%;
+        .button{
+            height: 60px;
+            width: 200px;
+        }
+    }
+    input{
+        height: 60px;
+    }
+}
 
+.identifiants{
+    margin: 0;
+        div{
+        grid-template-columns: 25% 75%;
+        }
+        h3{
+            font-size: 18px;
+        }
+        p{
+            margin-right: 20%;
+        }
+        .socialnetwork{
+            margin-right: 20%;
+            justify-content: space-evenly;
 
+        }
+    }
 
 }
-    
