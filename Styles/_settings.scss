@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $white: rgb(255, 255, 255);
 $black: black;
 
@@ -35,41 +34,3 @@ li{
     background-color: white;
     border: 2px solid black;
 }
-=======
-$white: rgb(255, 255, 255);
-$black: black;
-
-
-h1, h2, h3{
-    font-family: 'Inter',sans-serif;
-}
-p{
-    font-family: 'Merriweather',sans-serif;
-}
-body{
-    background-image: url(../asset/img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 20%;
-}
-
-li{
-    list-style: none;
-    font-family: 'inter',sans-serif;
-}
-
-@mixin margin{
-    margin-right: 10%;
-    margin-left: 10%;
-} 
-
-@mixin button{
-    margin: 10% 6%;
-    font-size: 15px;
-    text-transform: uppercase;
-    height: 50px;
-    width: 170px;
-    background-color: white;
-    border: 2px solid black;
-}
->>>>>>> 4e101b827fd52a371dc244e5107fb428b45745e6
