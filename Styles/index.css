@@ -3,7 +3,7 @@
   src: url(/asset/font/Merriweather-Light.ttf);
 }
 @font-face {
-  font-family: MerriweatherSans-italic;
+  font-family: Merriweather-italic;
   src: url(/asset/font/MerriweatherSans-Italic-VariableFont_wght.ttf);
 }
 @font-face {
@@ -79,6 +79,7 @@ header p {
   text-align: center;
   color: white;
   margin-bottom: 5%;
+  font-family: "merriweather-italic";
 }
 header a {
   color: white;
@@ -243,7 +244,6 @@ footer input.button {
 }
 
 .socialnetwork {
-  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -280,11 +280,11 @@ button {
 }
 
 .identifiants {
-  margin: 0;
+  margin: auto 90px auto auto;
 }
 .identifiants div {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 40% 60%;
   color: grey;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -294,6 +294,7 @@ button {
   padding-left: 50px;
   padding-bottom: 30px;
   padding-top: 40px;
+  padding-right: 30px;
 }
 .identifiants div h3 {
   margin-right: 20%;
@@ -309,14 +310,12 @@ button {
   grid-template-columns: repeat(4, 20%);
   justify-items: center;
   margin-right: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border-bottom: none;
+  padding: 0;
 }
 .identifiants .socialnetwork a {
   color: black;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.466);
   border-radius: 100px;
   padding: 20%;
   height: 20px;

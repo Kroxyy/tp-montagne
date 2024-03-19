@@ -1,11 +1,11 @@
 
 .identifiants{
-    margin: 0;
+    margin: auto 90px auto auto;
 
 
     div{
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 40% 60%;
         color: grey;
         align-items: baseline;
         text-align: start;
@@ -13,6 +13,7 @@
         padding-left: 50px;
         padding-bottom: 30px;
         padding-top: 40px;
+        padding-right: 30px;
 
         h3{
             margin-right: 20%;
@@ -29,13 +30,13 @@
         grid-template-columns: repeat(4,20%);
         justify-items: center;
         margin-right: 0;
-        justify-content: space-between;
         border-bottom: none;
+        padding: 0;
 
 
         a{
         color: black;
-        border: 1px solid gray;
+        border: 1px solid rgba(128, 128, 128, 0.466);
         border-radius: 100px;
         padding: 20%;
         height: 20px;
