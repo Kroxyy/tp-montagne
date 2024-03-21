@@ -1,4 +1,8 @@
 nav {
+    &:hover li:not(:hover){
+        background: none;
+        color: white;
+    }
     background: rgba(0, 0, 0, 0.10);
     @include margin;
     margin-top: 10%;
@@ -13,9 +17,19 @@ nav {
             text-align: center;
             text-transform: uppercase;
             color: white;
-            font-weight: 800;           
-            padding: 5%;
+            font-weight: 800;  
+            display: flex; 
+            align-items: center;
+            height: 100%;        
+            padding: 0 15px;
+            cursor: pointer;
 
+            &:first-child{
+                background: white;
+                color: black;
+            }
+            
+            
             &:hover{
                 background: whitesmoke;
                 transition: background-color 0.3s;

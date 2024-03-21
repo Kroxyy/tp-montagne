@@ -42,6 +42,10 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+nav:hover li:not(:hover) {
+  background: none;
+  color: white;
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,7 +62,19 @@ nav ul li {
   text-transform: uppercase;
   color: white;
   font-weight: 800;
-  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  cursor: pointer;
+}
+nav ul li:first-child {
+  background: white;
+  color: black;
 }
 nav ul li:hover {
   background: whitesmoke;
@@ -267,7 +283,7 @@ footer input.button {
 }
 .socialnetwork a {
   color: rgb(255, 255, 255);
-  padding: 63%;
+  padding: 70%;
 }
 .socialnetwork a:hover {
   background: whitesmoke;
